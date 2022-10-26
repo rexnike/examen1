@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:examen1/home_pages.dart';
 
 void main() {
-  runApp(const MyApp()
+  runApp(
+    const MyApp(),
   );
 }
 
@@ -11,5 +13,6 @@ class name extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container();
+    
   }
 }
